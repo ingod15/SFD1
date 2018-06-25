@@ -1,0 +1,14 @@
+<!--
+ - Created by Basko_Y on 19.06.2018.
+ -->
+
+<apex:page id="OppView" standardController="Opportunity">
+<apex:pageBlock title="test Opp Task">
+<apex:pageBlockSection >
+<apex:outputField value="{!Opportunity.Name}"/>
+<apex:outputField value="{!Opportunity.Amount}"/>
+<apex:outputField value="{!Opportunity.CloseDate}"></apex:outputField>
+<apex:outputField value="{!Opportunity.Account.Name}"></apex:outputField>
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:page>
